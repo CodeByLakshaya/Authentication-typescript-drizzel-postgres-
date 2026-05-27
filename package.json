@@ -1,0 +1,17 @@
+{
+  "name": "class_03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "lakshaya kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^7.2.0"
+  }
+}
