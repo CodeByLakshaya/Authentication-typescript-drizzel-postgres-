@@ -8,7 +8,7 @@ export function createExpressApplication(): Express{
 
     //routes
     app.get('/', (req, res) => {
-        res.json({ message: 'Hello, World!' });
+        res.json({ message: 'Hello, World!' } );
     });
 
     return app; 
